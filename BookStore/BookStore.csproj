@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\uploads\IMAG0031.jpg" />
+    <Content Remove="wwwroot\uploads\IMAG0034.jpg" />
+    <Content Remove="wwwroot\uploads\IMAG0045.jpg" />
+    <Content Remove="wwwroot\uploads\IMG-20200201-WA0000.jpg" />
+    <Content Remove="wwwroot\uploads\IMG-20200318-WA0010.jpg" />
+    <Content Remove="wwwroot\uploads\IMG-20200318-WA0027.jpg" />
+    <Content Remove="wwwroot\uploads\IMG-20200807-WA0013.jpg" />
+    <Content Remove="wwwroot\uploads\IMG-20200911-WA0035.jpg" />
+    <Content Remove="wwwroot\uploads\WhatsApp Image 2023-05-30 at 23.33.06.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\" />
+  </ItemGroup>
+
+</Project>
